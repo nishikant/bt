@@ -26,4 +26,5 @@ class Build(Base):
     vetoed_by = Column(Text)
     sprint_link = Column(Text)
     auto_start = Column(Boolean, default=False)
+    targets = Column(Text,default="all angular.build", nullable=False)
 
