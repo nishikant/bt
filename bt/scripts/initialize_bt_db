@@ -1,0 +1,10 @@
+#!/home/gattu/project/env/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'bt','console_scripts','initialize_bt_db'
+__requires__ = 'bt'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('bt', 'console_scripts', 'initialize_bt_db')()
+    )
