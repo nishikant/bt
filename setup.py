@@ -28,6 +28,7 @@ requires = [
     'aiodns',
     'aiohttp',
     'asyncio',
+    'alembic',
     ]
 
 tests_require = [
