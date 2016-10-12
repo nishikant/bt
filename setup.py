@@ -29,6 +29,7 @@ requires = [
     'aiohttp',
     'asyncio',
     'alembic',
+    'factory_boy',
     ]
 
 tests_require = [
