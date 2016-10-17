@@ -9,7 +9,7 @@ from .meta import Base
 
 
 class MyModel(Base):
-    __tablename__ = 'models'
+    __tablename__ = 'mymodels'
     id = Column(Integer, primary_key=True)
     name = Column(Text)
     value = Column(Integer)

@@ -1,8 +1,8 @@
 import factory
-from .. import models
 
+from bt.models.build_site import BuildSite
 class BuildSiteFactory(factory.Factory):
     class Meta:
-        model = models.BuildSite
+        model = BuildSite
 
     site_name = "QP"

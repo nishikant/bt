@@ -1,10 +1,10 @@
 import factory
-from .. import models
-from . import BuildSiteFactory
+from bt.models.build_server import BuildServer
+from bt.tests.factories.build_site_factory import BuildSiteFactory
 
 class BuildServerFactory(factory.Factory):
     class Meta:
-        model = models.BuildServer
+        model = BuildServer
 
     site_id = factory.SubFactory(BuildSiteFactory)
 
