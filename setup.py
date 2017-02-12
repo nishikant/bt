@@ -30,6 +30,7 @@ requires = [
     'asyncio',
     'alembic',
     'factory_boy',
+    'pytest-factoryboy',
     ]
 
 tests_require = [
