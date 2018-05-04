@@ -6,3 +6,4 @@ class BuildSiteFactory(factory.Factory):
         model = BuildSite
 
     site_name = "QP"
+
